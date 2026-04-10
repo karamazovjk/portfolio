@@ -17,7 +17,7 @@ Este repositório reúne meus projetos práticos, desenvolvidos majoritariamente
 | [Tempo de tela, estresse e sono](./projeto-01-tempo-de-tela/) | Python · SQL · Power BI | 🔄 Em desenvolvimento |
 | [Otimizador de perfomace](./projeto-02-otimizador-de-perfomance/) | Python | 🔄 Em desenvolvimento |
 | [Produtividade Universitária](./projeto-03-produtividade-universitária/) | Python | 🔄 Em desenvolvimento |
-| [Modificação de código aberto](./projeto-04-modificando-código-aberto) | Python · SDK · Git · C | 🔄 Em desenvolvimento |
+| [Modificação de código aberto](./projeto-04-modificando-código-aberto) | Terminal · SDK · Git · C | 🔄 Em desenvolvimento |
 ---
 
 ## Tecnologias que utilizo
