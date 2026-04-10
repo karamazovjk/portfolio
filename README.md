@@ -1,7 +1,7 @@
 #  Portfólio
 
 Estudante de Ciência de Dados e Neurociência na UFABC, em transição para a área de dados.
-Este repositório reúne meus projetos práticos, desenvolvidos com Python, SQL e Power BI.
+Este repositório reúne meus projetos práticos, desenvolvidos majoritariamente em python, com suporte de outras ferramentas de análise e manipulação de dados.
 
 > 🇧🇷 **Nota sobre idioma:** por ora, meus projetos estão documentados em português.
 > É o idioma em que me expresso com mais precisão técnica neste momento da minha formação,
