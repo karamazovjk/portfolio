@@ -1,4 +1,4 @@
-# Tempo de tela, estresse e sono: uma análise exploratória de dados
+# Tempo de tela, estresse e sono: uma análise exploratória de dados inicial
 
 **Área:** Saúde digital · Comportamento · Bem-estar  
 **Ferramentas:** Python (Pandas, NumPy, Matplotlib) · SQL · Power BI *(em desenvolvimento)*  
