@@ -63,6 +63,9 @@ projeto-01-tempo-de-tela/
 | Correlação sono × produtividade | 0,003 |
 | Correlação estresse × produtividade | 0,010 |
 
+<img width="1896" height="612" alt="image" src="https://github.com/user-attachments/assets/f95b7c42-7fa2-483d-9832-810cccbf2cea" />
+
+
 ### Interpretação
 
 As correlações encontradas entre sono e produtividade (0,003) e entre estresse e produtividade (0,010) são **próximas de zero**, indicando ausência de relação linear expressiva neste dataset. Isso não significa que essas variáveis não se relacionam na realidade — mas sim que, nos dados analisados, essa relação não aparece de forma linear e direta.
