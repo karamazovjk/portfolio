@@ -17,7 +17,7 @@ Este repositório reúne meus projetos práticos, desenvolvidos majoritariamente
 | [Tempo de tela, estresse e sono](./projeto-01-tempo-de-tela/) | Python · SQL · Power BI | 🔄 Em desenvolvimento |
 | [Produtividade Universitária](./projeto-03-produtividade-universitária/) | Python · Kaggle · ODS | 🔄 Em desenvolvimento |
 | [Modificação de código aberto](./projeto-04-modificando-código-aberto) | Terminal · SDK · Git · C | 🔄 Em desenvolvimento |
-| [Migração de Sistema Operacional](./arch-linux) | Terminal · Git · C | Concluído |
+| [Migração de Sistema Operacional](./arch-linux) | Terminal · Git · C | ✅ Concluído |
 
 ---
 
