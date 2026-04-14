@@ -12,7 +12,7 @@ Este repositório reúne meus projetos práticos, desenvolvidos majoritariamente
 
 ## Projetos
 
-| Projeto | Ferramentas | Status |
+| Nomeação | Ferramentas | Status |
 |---|---|---|
 | [Tempo de tela, estresse e sono](./projeto-01-tempo-de-tela/) | Python · SQL · Power BI | 🔄 Em desenvolvimento |
 | [Produtividade Universitária](./projeto-03-produtividade-universitária/) | Python · Kaggle · ODS | 🔄 Em desenvolvimento |
@@ -21,7 +21,7 @@ Este repositório reúne meus projetos práticos, desenvolvidos majoritariamente
 
 ---
 
-## Tecnologias que utilizo
+## Ferramentas que utilizo
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=flat&logo=mysql&logoColor=white)
