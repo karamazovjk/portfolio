@@ -63,7 +63,11 @@ projeto-01-tempo-de-tela/
 | Correlação sono × produtividade | 0,003 |
 | Correlação estresse × produtividade | 0,010 |
 
-<img width="1896" height="612" alt="image" src="https://github.com/user-attachments/assets/f95b7c42-7fa2-483d-9832-810cccbf2cea" />
+### Tabelas de Visualização
+
+<img width="805" height="260" alt="PDU" src="https://github.com/user-attachments/assets/244c5a09-c3f2-4d21-b578-b0888ca847b9" />
+<img width="732" height="260" alt="IUS" src="https://github.com/user-attachments/assets/bc5513d1-c89f-4e5c-b57b-4e628ecbe0ad" />
+
 
 
 ### Interpretação
