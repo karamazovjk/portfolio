@@ -12,7 +12,7 @@ Este repositório reúne meus projetos práticos, desenvolvidos majoritariamente
 
 ## Projetos
 
-| Nomeação | Ferramentas | Status |
+| Nomeação | Plataformas | Status |
 |---|---|---|
 | [Tempo de tela, estresse e sono](./projeto-01-tempo-de-tela/) | Python · SQL · Power BI | 🔄 Em desenvolvimento |
 | [Produtividade Universitária](./projeto-03-produtividade-universitária/) | Python · Kaggle · ODS | 🔄 Em desenvolvimento |
