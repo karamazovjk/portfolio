@@ -18,7 +18,7 @@ Migração completa de ambiente Windows 11 para  Arch Linux, com compositor Hypr
 ---
 
 ### Tempo de Tela, Estresse e Sono  
-**Status:** 🟡 Em desenvolvimento  
+**Status:** 🟢 Primeira versão concluída  
 **Stack:** Python (Pandas, Matplotlib), SQL, Power BI  
 
 Análise exploratória da relação entre tempo de exposição a telas e qualidade do sono, com foco na identificação de padrões comportamentais e correlações.
