@@ -52,7 +52,7 @@ Análise e modificação de código open-source com foco em compreensão de sist
 > **Nota sobre idioma:** por ora, meus projetos estão documentados em português.
 > É o idioma em que me expresso com mais precisão técnica neste momento da minha formação,
 > e acredito que clareza na comunicação dos resultados é tão importante quanto o código em si.
-> Projetos em inglês estão nos planos à medida que avanço.
+> Projetos em inglês e espanhol estão nos planos à medida que avanço.
 
 
 Apesar de minha especialização ser na área de Ciências de dados, estou explorando e aperfeiçoando minhas habilidades de automação e programação de forma geral, com o intuito de me integrar no mercado de trabalho como um profissional abrangente e flexível, e, ainda assim, centrado.
