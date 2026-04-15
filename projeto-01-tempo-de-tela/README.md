@@ -2,7 +2,7 @@
 
 **Área:** Saúde digital · Comportamento · Bem-estar  
 **Ferramentas:** Python (Pandas, NumPy, Matplotlib) · SQL · Power BI *(em desenvolvimento)*  
-**Status:** 🔄 Em desenvolvimento
+**Status:** 🟢 Primeira versão concluída
 
 ---
 
