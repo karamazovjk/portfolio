@@ -31,7 +31,7 @@ Análise exploratória da relação entre tempo de exposição a telas e qualida
 **Status:** 🟡 Em desenvolvimento  
 **Stack:** Python, Kaggle, ODS  
 
-Estudo de variáveis que impactam a produtividade acadêmica a partir de dados estruturados em bases públicas. Estruturação pensada para desenvolvimento de Iniciação CIentífica.
+Estudo de variáveis que impactam a produtividade acadêmica a partir de dados estruturados em bases públicas. Estruturação pensada para desenvolvimento de Iniciação Científica.
 
 [Ver projeto](./projeto-03-produtividade-universitária/)
 
