@@ -1,4 +1,4 @@
-# Otimizador do PC
+# Otimizador de Sistema
 
 **Área:** Ferramentas de sistema · Automação · Interface gráfica  
 **Linguagem:** Python 3.x  
