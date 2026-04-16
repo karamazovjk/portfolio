@@ -88,6 +88,13 @@ Outros achados relevantes:
 - Correlação linear não captura relações mais complexas entre as variáveis
 - Ausência de dados longitudinais: não é possível avaliar mudanças ao longo do tempo
 
+
+## Justificativa para expansão da análise
+
+Os resultados obtidos na análise inicial indicaram baixa variação entre tempo de tela e qualidade do sono, o que pode ser explicado pelo perfil da amostra analisada. Como o dataset apresenta predominância de indivíduos mais velhos, os padrões de uso de dispositivos não refletem cenários onde o tempo de tela é significativamente elevado.
+
+Dessa forma, a ausência de correlações mais fortes não invalida a hipótese inicial, mas sugere que ela depende diretamente do contexto populacional analisado. A continuidade do projeto propõe a utilização de um novo dataset com foco em indivíduos mais jovens, permitindo avaliar se padrões mais intensos de uso de tecnologia impactam de forma diferente o sono e o estresse.
+
 ---
 
 ## Próximos passos
