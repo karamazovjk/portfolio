@@ -8,12 +8,16 @@
 
 ## Objetivo
 
-Investigar se o aumento do uso diário de smartphones está associado a maiores níveis de estresse percebido e menor duração do sono. O foco está em identificar **correlações e padrões nos dados** — não em estabelecer relações causais.
+Investigar a relação entre tempo de telas, níveis de estresse e qualidade do sono a partir de análise exploratória de dados. A análise inicial foi conduzida com um dataset contendo predominantemente indivíduos de faixas etárias mais altas, o que resultou em uma distribuição mais homogênea de tempo de tela e padrões de sono.
+
+Diante disso, surge uma segunda etapa do projeto com foco em comparar esse comportamento com populações mais jovens, onde o uso de dispositivos tende a ser significativamente mais intenso. O objetivo passa, então, a incluir não apenas a identificação de correlações, mas também a análise de como essas relações variam entre diferentes perfis demográficos.
+
 
 **Perguntas norteadoras:**
 - Usuários com mais horas de tela dormem menos?
 - Maior tempo de tela está associado a níveis de estresse mais altos?
 - Esses padrões variam por ocupação, faixa etária ou sistema operacional?
+
 
 ---
 
