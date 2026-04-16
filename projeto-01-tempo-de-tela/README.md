@@ -89,7 +89,7 @@ Outros achados relevantes:
 - Ausência de dados longitudinais: não é possível avaliar mudanças ao longo do tempo
 
 
-## Justificativa para expansão da análise
+### Justificativa para expansão da análise
 
 Os resultados obtidos na análise inicial indicaram baixa variação entre tempo de tela e qualidade do sono, o que pode ser explicado pelo perfil da amostra analisada. Como o dataset apresenta predominância de indivíduos mais velhos, os padrões de uso de dispositivos não refletem cenários onde o tempo de tela é significativamente elevado.
 
