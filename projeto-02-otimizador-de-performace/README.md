@@ -3,7 +3,7 @@
 **Área:** Ferramentas de sistema · Automação · Interface gráfica  
 **Linguagem:** Python 3.x  
 **Interface:** Tkinter (desktop nativo)  
-**Status:** 🔄 Em desenvolvimento ativo
+**Status:** Finalizado
 
 ---
 
