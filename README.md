@@ -55,7 +55,7 @@ Análise e modificação de código open-source com foco em compreensão de sist
 > Projetos em inglês e espanhol estão nos planos à medida que avanço.
 
 
-Apesar de minha especialização ser na área de Ciências de dados, estou explorando e aperfeiçoando minhas habilidades de automação, lógica de programação, e conhecimentos de hardware , com o intuito de me integrar no mercado de trabalho como um profissional abrangente e flexível, e, ainda assim, centrado.
+Apesar de minha especialização ser na área de Ciências de dados, estou explorando e aperfeiçoando minhas habilidades de automação, lógica de programação e conhecimentos de hardware, com o intuito de me integrar no mercado de trabalho como um profissional abrangente e flexível, e, ainda assim, centrado.
 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
