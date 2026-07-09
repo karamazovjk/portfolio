@@ -115,7 +115,7 @@ bind = CTRL ALT, Delete, exec, kitty btop
 
 ---
 
-## 📦 Pacotes Essenciais
+## Pacotes Essenciais
 
 ```bash
 # Sistema base
@@ -129,7 +129,7 @@ yay -S visual-studio-code-bin spotify notion-app
 
 ---
 
-## 🔧 Fixes e Workarounds
+## Fixes e Workarounds
 
 ### DNS persistente
 ```bash
@@ -164,7 +164,7 @@ Estimativa: projeto de hobby de 6–12 meses dado meu nível atual (C, Linux int
 
 ---
 
-## 💡 Aprendizados
+##  Aprendizados
 
 - Diferença entre ambiente de desktop (KDE, Cinnamon) e compositor Wayland (Hyprland)
 - Gerenciamento de pacotes com `pacman` e `yay` (AUR)
@@ -175,13 +175,13 @@ Estimativa: projeto de hobby de 6–12 meses dado meu nível atual (C, Linux int
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 > *Em breve*
 
 ---
 
-## 🔗 Referências
+## Referências
 
 - [Arch Wiki — Installation Guide](https://wiki.archlinux.org/title/Installation_guide)
 - [Hyprland Wiki](https://wiki.hyprland.org)
