@@ -146,11 +146,21 @@ sudo systemctl enable --now iwd
 sudo systemctl enable --now NetworkManager
 ```
 
-### Leitor de digital (sem suporte)
-O sensor `Samsung 04e8:730a` não possui driver disponível no Linux. Tentativas realizadas:
-- `fprintd` + `libpam-fprintd`
-- `python-validity` via PPA `uunicorn/open-fprintd`
-- O sensor é detectado via USB mas o protocolo proprietário não é suportado
+### Leitor de digital — possibilidade de reversing (registrado em jul/2026)
+Sensor: Samsung 04e8:730a (CanvasBio, driver proprietário Windows-only). Sem suporte no libfprint nem em forks/hubs comunitários atuais.
+Viabilidade: boa, há precedentes reais de gente sem background formal fazendo esse tipo de reversing sozinha (ex: projeto goodix-fingerprint-reversing, Validity90/91, casos documentados usando IA como par de reversing). Nível de dificuldade varia MUITO — pode ser desde 1 linha de código (adicionar device ID que já usa protocolo conhecido) até meses (protocolo com handshake criptográfico tipo TLS-PSK).
+
+Antes de começar, checar: Fabricante real do chip por trás do rebrand "CanvasBio" (FCC ID / datasheet) — se já tiver reversing feito sob outro nome comercial, economiza trabalho.
+
+Roteiro para projeto:
+
+- Aprender básico de USB (endpoints, descriptors)
+- Dual boot/VM com passthrough USB + Wireshark/usbmon pra capturar tráfego do driver Windows genuíno
+- Analisar dump: procurar handshake criptográfico vs. tráfego plano
+- Prototipar em Python antes de pensar em driver C
+- Recorrer a comunidades (Discord Goodix, issues libfprint) e IA como apoio se travar
+
+Estimativa: projeto de hobby de 6–12 meses dado meu nível atual (C, Linux internals, scripting).
 
 ---
 
