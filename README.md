@@ -1,6 +1,6 @@
 #  Portfólio
 
-Estudante de Ciência de Dados e Neurociência na Universidade Federal do ABC, em transição para a área de dados.
+Estudante de Ciência e tecnologia na Universidade Federal do ABC, especifico na área de dados.
 Este repositório reúne meus projetos práticos, desenvolvidos majoritariamente em python e C, com suporte de outras ferramentas de análise e manipulação de dados, também abrangendo outros estudos computacionais.
 
 ---
