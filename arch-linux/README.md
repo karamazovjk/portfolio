@@ -1,18 +1,21 @@
-# 🐧 Linux Setup — Arch + Hyprland + Hyde
+<h1 align="center">🐧Linux Setup — Arch + Hyprland + HyDE</h1>
 
-> Documentação do processo completo de migração de Windows 11 para Arch Linux com Hyprland, realizado do zero em um Samsung NP530XBB (Intel Celeron N4000, 4GB RAM, 56GB).
+<p align="center"><i>Documentação do processo completo de migração de Windows 11 para Arch Linux com Hyprland, realizado do zero em um Samsung NP530XBB (Intel Celeron N4000, 4GB RAM, 56GB).</i></p>
 
----
+<p align="center">Maiores detalhes estão no repositório do meu <a href="https://github.com/karamazovjk/dotfiles">dotfiles</a>.</p>
 
-## Contexto
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=karamazovjk&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
+
+<h2 align="center">Contexto</h2>
 
 Notebook antigo rodando Windows 11 com hardware limitado (4GB RAM, Celeron N4000), apresentando lentidão severa. A solução foi migrar completamente para Linux, explorando desde distros mais amigáveis até o Arch Linux puro com Hyprland como compositor Wayland.
 
----
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=karamazovjk&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-## Desenvolvimento
+<h2 align="center">Desenvolvimento</h2>
 
-### Fase 1 — Customização do Terminal no Windows
+<h3 align="center">Fase 1 — Customização do Terminal no Windows</h3>
+
 Antes da migração, o terminal do Windows foi customizado como introdução ao mundo do ricing:
 
 - Configuração da **execution policy** do PowerShell
@@ -23,14 +26,15 @@ Antes da migração, o terminal do Windows foi customizado como introdução ao 
 
 **Principais comandos:**
 ```powershell
-winget install JanDeLaats.OhMyPosh
+winget install JanDeDobbeleer.OhMyPosh
 oh-my-posh font install JetBrainsMono
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
----
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=karamazovjk&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-### Fase 2 — Linux Mint (Teste)
+<h3 align="center">Fase 2 — Linux Mint (Teste)</h3>
+
 Primeiro contato com Linux via Live USB para validar compatibilidade de hardware:
 
 - Criação de Live USB com **Rufus** + ISO do Linux Mint 22.3 Cinnamon
@@ -45,12 +49,14 @@ Primeiro contato com Linux via Live USB para validar compatibilidade de hardware
 **Hardware incompatível:**
 - Leitor de impressão digital Samsung (`04e8:730a`) — sensor sem driver disponível no Linux
 
----
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=karamazovjk&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-### Fase 3 — Arch Linux + Hyprland
-Migração para setup definitivo após insatisfação com performance do Mint Cinnamon:
+<h3 align="center">Fase 3 — Arch Linux + Hyprland</h3>
 
-#### Instalação do Arch
+Migração para o setup definitivo após insatisfação com a performance do Mint Cinnamon:
+
+<h4 align="center">Instalação do Arch</h4>
+
 ```bash
 # Boot pelo archiso, conexão Wi-Fi
 iwctl
@@ -67,13 +73,14 @@ archinstall
 - Teclado sem layout ABNT2 → configuração via `hyprland.conf`
 - Wi-Fi não conectando após reboot → habilitação do `iwd` via systemctl
 
-#### Configuração do Hyprland
+<h4 align="center">Configuração do Hyprland</h4>
+
 ```bash
 # Instalação do yay (AUR helper)
 git clone https://aur.archlinux.org/yay.git
 cd yay && makepkg -si
 
-# HyprDots (configuração completa)
+# HyDE (HyprDots) — configuração completa
 git clone --depth 1 https://github.com/prasanthrangan/hyprdots ~/HyprDots
 cd ~/HyprDots/Scripts && ./install.sh
 ```
@@ -94,18 +101,20 @@ bind = SUPER SHIFT, S, exec, grim -g "$(slurp)" ~/Pictures/screenshot-$(date +%Y
 bind = CTRL ALT, Delete, exec, kitty btop
 ```
 
----
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=karamazovjk&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-## 🛠️ Stack Final
+<h2 align="center">Stack Final</h2>
+
+<div align="center">
 
 | Categoria | Ferramenta |
 |---|---|
 | OS | Arch Linux |
 | Compositor | Hyprland (Wayland) |
-| Tema/Dots | HyprDots (prasanthrangan) |
+| Tema/Dots | HyDE (HyprDots — prasanthrangan) |
 | Shell | Zsh |
 | Terminal | Kitty |
-| Bar | Waybar (via HyprDots) |
+| Bar | Waybar (via HyDE) |
 | Launcher | Rofi |
 | Editor | Neovim + NvChad |
 | Fetch | Fastfetch |
@@ -113,9 +122,11 @@ bind = CTRL ALT, Delete, exec, kitty btop
 | Áudio | PipeWire + WirePlumber |
 | Fonte | JetBrains Mono Nerd Font |
 
----
+</div>
 
-## Pacotes Essenciais
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=karamazovjk&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
+
+<h2 align="center">Pacotes Essenciais</h2>
 
 ```bash
 # Sistema base
@@ -127,11 +138,12 @@ sudo pacman -S base-devel linux-headers git wget curl nano neovim \
 yay -S visual-studio-code-bin spotify notion-app
 ```
 
----
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=karamazovjk&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-## Fixes e Workarounds
+<h2 align="center">Fixes e Workarounds</h2>
 
-### DNS persistente
+<h3 align="center">DNS persistente</h3>
+
 ```bash
 sudo nano /etc/systemd/resolved.conf
 # Adicionar: DNS=8.8.8.8 8.8.4.4
@@ -140,31 +152,38 @@ sudo systemctl enable --now systemd-resolved
 sudo ln -sf /run/systemd/resolve/stub-resolv.conf /etc/resolv.conf
 ```
 
-### Wi-Fi automático no boot
+<h3 align="center">Wi-Fi automático no boot</h3>
+
 ```bash
 sudo systemctl enable --now iwd
 sudo systemctl enable --now NetworkManager
 ```
 
-### Leitor de digital — possibilidade de reversing (registrado em jul/2026)
-Sensor: Samsung 04e8:730a (CanvasBio, driver proprietário Windows-only). Sem suporte no libfprint nem em forks/hubs comunitários atuais.
-Viabilidade: boa, há precedentes reais de gente sem background formal fazendo esse tipo de reversing sozinha (ex: projeto goodix-fingerprint-reversing, Validity90/91, casos documentados usando IA como par de reversing). Nível de dificuldade varia MUITO — pode ser desde 1 linha de código (adicionar device ID que já usa protocolo conhecido) até meses (protocolo com handshake criptográfico tipo TLS-PSK).
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=karamazovjk&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-Antes de começar, checar: Fabricante real do chip por trás do rebrand "CanvasBio" (FCC ID / datasheet) — se já tiver reversing feito sob outro nome comercial, economiza trabalho.
+<h2 align="center">Próximo projeto: leitor de digital</h2>
 
-Roteiro para projeto:
+<p align="center"><i>Possibilidade de reversing (registrado em jul/2026)</i></p>
 
-- Aprender básico de USB (endpoints, descriptors)
-- Dual boot/VM com passthrough USB + Wireshark/usbmon pra capturar tráfego do driver Windows genuíno
-- Analisar dump: procurar handshake criptográfico vs. tráfego plano
+**Sensor:** Samsung 04e8:730a (CanvasBio, driver proprietário Windows-only). Sem suporte no libfprint nem em forks/hubs comunitários atuais.
+
+**Viabilidade:** boa, há precedentes reais de gente sem background formal fazendo esse tipo de reversing sozinha (ex: projeto goodix-fingerprint-reversing, Validity90/91, casos documentados usando IA como par de reversing). O nível de dificuldade varia muito — pode ser desde 1 linha de código (adicionar um device ID que já usa protocolo conhecido) até meses (protocolo com handshake criptográfico tipo TLS-PSK).
+
+**Antes de começar, checar:** o fabricante real do chip por trás do rebrand "CanvasBio" (FCC ID / datasheet). Se já houver reversing feito sob outro nome comercial, economiza trabalho.
+
+**Roteiro:**
+
+- Aprender o básico de USB (endpoints, descriptors)
+- Dual boot/VM com passthrough USB + Wireshark/usbmon para capturar o tráfego do driver Windows genuíno
+- Analisar o dump: procurar handshake criptográfico vs. tráfego plano
 - Prototipar em Python antes de pensar em driver C
-- Recorrer a comunidades (Discord Goodix, issues libfprint) e IA como apoio se travar
+- Recorrer a comunidades (Discord Goodix, issues do libfprint) e a IA como apoio se travar
 
-Estimativa: projeto de hobby de 6–12 meses dado meu nível atual (C, Linux internals, scripting).
+**Estimativa:** projeto de hobby de 6–12 meses, dado meu nível atual (C, Linux internals, scripting).
 
----
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=karamazovjk&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-##  Aprendizados
+<h2 align="center">Aprendizados</h2>
 
 - Diferença entre ambiente de desktop (KDE, Cinnamon) e compositor Wayland (Hyprland)
 - Gerenciamento de pacotes com `pacman` e `yay` (AUR)
@@ -173,18 +192,18 @@ Estimativa: projeto de hobby de 6–12 meses dado meu nível atual (C, Linux int
 - Conceito de dotfiles e ricing no Linux
 - Navegação e edição no terminal sem interface gráfica
 
----
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=karamazovjk&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-## Screenshots
+<h2 align="center">Screenshots</h2>
 
-> *Em breve*
+<p align="center"><i>Em breve</i></p>
 
----
+<div align="center"><img src="https://www.gitskins.com/api/readme-reference/divider?username=karamazovjk&theme=neon&v=readme-reference-2" width="100%" alt="Section divider" /></div>
 
-## Referências
+<h2 align="center">Referências</h2>
 
 - [Arch Wiki — Installation Guide](https://wiki.archlinux.org/title/Installation_guide)
 - [Hyprland Wiki](https://wiki.hyprland.org)
-- [HyprDots — prasanthrangan](https://github.com/prasanthrangan/hyprdots)
+- [HyDE (HyprDots) — prasanthrangan](https://github.com/prasanthrangan/hyprdots)
 - [python-validity — uunicorn](https://github.com/uunicorn/python-validity)
 - [SleepyCatHey — Ultimate Win11 Setup](https://github.com/SleepyCatHey/Ultimate-Win11-Setup)
